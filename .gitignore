@@ -72,3 +72,4 @@ crashlytics-build.properties
 /[Aa]ssets/[Ss]treamingAssets/aa/*
 
 # Ignore libburst-llvm-16.dylib
+/libburst-llvm-16.dylib
