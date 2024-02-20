@@ -5,16 +5,16 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638429850771116941
-    m_Hash: 2371964185
+      ticks: 638439753850989750
+    m_Hash: 3104217734
   m_LockFileStatus:
     m_FilePath: E:/C# and Python/GitHub/rogalik/games/Packages/packages-lock.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638429851382774671
-    m_Hash: 428680385
+      ticks: 638439753850989750
+    m_Hash: 295145596
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
 m_LocalPackages:
@@ -723,6 +723,7 @@ m_ResolvedPackages:
     - 3.0.5
     - 3.0.6
     - 3.0.7
+    - 3.0.8
     - 3.2.0-pre.1
     - 3.2.0-pre.2
     - 3.2.0-pre.3
@@ -736,6 +737,7 @@ m_ResolvedPackages:
     compatible:
     - 3.0.6
     - 3.0.7
+    - 3.0.8
     - 3.2.0-pre.1
     - 3.2.0-pre.2
     - 3.2.0-pre.3
@@ -746,7 +748,7 @@ m_ResolvedPackages:
     - 3.2.0-pre.8
     - 4.0.0-pre.1
     - 4.0.0-pre.2
-    recommended: 3.0.7
+    recommended: 3.0.8
     deprecated: []
   dependencies:
   - name: com.unity.ugui
