@@ -374,9 +374,16 @@
 -analyzer:"D:/Programming/Unity Hub archive/2022.3.19f1/Editor/Data/Tools/Unity.SourceGenerators/Unity.Properties.SourceGenerator.dll"
 -analyzer:"D:/Programming/Unity Hub archive/2022.3.19f1/Editor/Data/Tools/Unity.SourceGenerators/Unity.SourceGenerators.dll"
 "Assets/scripts/camera.cs"
+"Assets/scripts/Enemy/Damage_hp_enemy.cs"
+"Assets/scripts/Enemy/Hp_Enemy.cs"
+"Assets/scripts/player/create_sphere.cs"
 "Assets/scripts/player/Jump.cs"
 "Assets/scripts/player/Move.cs"
 "Assets/scripts/player/Rotation.cs"
+"Assets/scripts/player/SpellCreation.cs"
+"Assets/scripts/player/Sphere/fireSpellPrefab.cs"
+"Assets/scripts/player/Sphere/iceSpellPrefab.cs"
+"Assets/scripts/player/Sphere/lightningSpellPrefab.cs"
 -langversion:9.0
 
 /deterministic
