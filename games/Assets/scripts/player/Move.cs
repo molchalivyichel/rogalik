@@ -20,8 +20,6 @@ public class Move : MonoBehaviour
 
     private void FixedUpdate()
     {
-        print($"{_speed} _speed");
-        print($"{speed} speed");
         Move_player();
     }
 }

@@ -3,15 +3,25 @@ using UnityEngine;
 
 public class create_sphere : MonoBehaviour
 {
+    private GameObject _target;
+    private float _distance;
+    private int _rotation;
+
     public GameObject target;
     public float distance;
-    private int rotation; 
+
+    void Start()
+    {
+        _target = target;
+        _distance = distance;
+    }
+
     void Update()
     {
         if (Input.GetKeyDown(KeyCode.Z))
         {
             Rotation();
-            Instantiate(target, new Vector2(transform.position.x + distance * rotation,transform.position.y), transform.rotation);
+            Instantiate(_target, new Vector2(transform.position.x + _distance * _rotation,transform.position.y), transform.rotation);
         }
     }
 
@@ -19,11 +29,11 @@ public class create_sphere : MonoBehaviour
     {
         if (transform.localRotation.y == 0)
         {
-            rotation = 1;
+            _rotation = 1;
         }
         else
         {
-            rotation = -1;
+            _rotation = -1;
         }
     }
 }

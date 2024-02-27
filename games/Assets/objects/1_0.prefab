@@ -11,7 +11,6 @@ GameObject:
   - component: {fileID: 6048846919927378474}
   - component: {fileID: 7871188469792307066}
   - component: {fileID: 7143723423310612790}
-  - component: {fileID: 3531173116089580352}
   - component: {fileID: 568871432139438334}
   - component: {fileID: 7333310393780404126}
   m_Layer: 0
@@ -123,33 +122,6 @@ CircleCollider2D:
   m_Offset: {x: 0.06923576, y: -0.042500325}
   serializedVersion: 2
   m_Radius: 0.09096555
---- !u!50 &3531173116089580352
-Rigidbody2D:
-  serializedVersion: 4
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6025982218806929399}
-  m_BodyType: 1
-  m_Simulated: 1
-  m_UseFullKinematicContacts: 0
-  m_UseAutoMass: 0
-  m_Mass: 1
-  m_LinearDrag: 0
-  m_AngularDrag: 0.05
-  m_GravityScale: 1
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_Interpolate: 0
-  m_SleepingMode: 1
-  m_CollisionDetection: 0
-  m_Constraints: 4
 --- !u!95 &568871432139438334
 Animator:
   serializedVersion: 5
@@ -184,7 +156,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 5
-  enter_damage: 0
-  extra_damage: 1
+  enter_damage: -3
+  extra_damage: -1
   extra_interval_second: 1
   extra_number: 3
