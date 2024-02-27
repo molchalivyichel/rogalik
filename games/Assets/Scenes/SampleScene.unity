@@ -131,10 +131,6 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: -1109469683416707430, guid: bc765dd309cf8064387050f604931bb7, type: 3}
-      propertyPath: m_BodyType
-      value: 2
-      objectReference: {fileID: 0}
     - target: {fileID: 290448348478652279, guid: bc765dd309cf8064387050f604931bb7, type: 3}
       propertyPath: m_Name
       value: platformer (4)
@@ -192,10 +188,6 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: -1109469683416707430, guid: bc765dd309cf8064387050f604931bb7, type: 3}
-      propertyPath: m_BodyType
-      value: 2
-      objectReference: {fileID: 0}
     - target: {fileID: 290448348478652279, guid: bc765dd309cf8064387050f604931bb7, type: 3}
       propertyPath: m_Name
       value: platformer (3)
@@ -360,10 +352,6 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: -1109469683416707430, guid: bc765dd309cf8064387050f604931bb7, type: 3}
-      propertyPath: m_BodyType
-      value: 2
-      objectReference: {fileID: 0}
     - target: {fileID: 290448348478652279, guid: bc765dd309cf8064387050f604931bb7, type: 3}
       propertyPath: m_Name
       value: platformer (2)
@@ -571,8 +559,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   jumpheight: 10
-  Check: {fileID: 1463453115}
-  Check_rad: 0.3
+  check: {fileID: 1463453115}
+  check_rad: 0.3
 --- !u!114 &891659454
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -586,7 +574,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   target: {fileID: 6025982218806929399, guid: 25cf13c527f9f9d409724837d41e22bc, type: 3}
-  distance: 2
+  distance: 1
 --- !u!1001 &986643604
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -671,10 +659,6 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: -1109469683416707430, guid: bc765dd309cf8064387050f604931bb7, type: 3}
-      propertyPath: m_BodyType
-      value: 2
-      objectReference: {fileID: 0}
     - target: {fileID: 290448348478652279, guid: bc765dd309cf8064387050f604931bb7, type: 3}
       propertyPath: m_Name
       value: platformer
@@ -736,10 +720,6 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: -1109469683416707430, guid: bc765dd309cf8064387050f604931bb7, type: 3}
-      propertyPath: m_BodyType
-      value: 2
-      objectReference: {fileID: 0}
     - target: {fileID: 290448348478652279, guid: bc765dd309cf8064387050f604931bb7, type: 3}
       propertyPath: m_Name
       value: platformer (1)
@@ -828,14 +808,6 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: -1109469683416707430, guid: bc765dd309cf8064387050f604931bb7, type: 3}
-      propertyPath: m_BodyType
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: -1109469683416707430, guid: bc765dd309cf8064387050f604931bb7, type: 3}
-      propertyPath: m_Simulated
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 290448348478652279, guid: bc765dd309cf8064387050f604931bb7, type: 3}
       propertyPath: m_Name
       value: platformer (5)
@@ -880,7 +852,8 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 0}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []

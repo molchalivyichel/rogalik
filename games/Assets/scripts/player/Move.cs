@@ -2,21 +2,26 @@ using UnityEngine;
 
 public class Move : MonoBehaviour
 {
-    private Rigidbody2D rb;
+    private Rigidbody2D _rb;
+    private float _speed;
+
     public float speed;
 
     void Move_player()
     {
-        rb.velocity = new Vector2(Input.GetAxis("Horizontal") * speed, rb.velocity.y);
+        _rb.velocity = new Vector2(Input.GetAxis("Horizontal") * _speed, _rb.velocity.y);
     }
 
     void Start()
     {
-        rb = GetComponent<Rigidbody2D>();
+        _speed = speed;
+        _rb = GetComponent<Rigidbody2D>();
     }
 
     private void FixedUpdate()
     {
+        print($"{_speed} _speed");
+        print($"{speed} speed");
         Move_player();
     }
 }
