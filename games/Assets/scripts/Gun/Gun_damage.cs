@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class Gun_damage : MonoBehaviour
 {
+    private Rigidbody2D _rb;
 
     private float _horizontal;
 
@@ -17,6 +18,7 @@ public class Gun_damage : MonoBehaviour
 
     void Start()
     {
+        _rb = GetComponent<Rigidbody2D>();
         _speed = speed;
         _enter_damage = enter_damage;
 
@@ -37,7 +39,7 @@ public class Gun_damage : MonoBehaviour
 
     void Move_sphere()
     {
-        transform.position += new Vector3(_horizontal * _speed * Time.fixedDeltaTime, 0);
+        _rb.velocity = new Vector2(_horizontal * _speed, _rb.velocity.y);
     }
 
     void FixedUpdate()
@@ -48,6 +50,7 @@ public class Gun_damage : MonoBehaviour
     private void OnCollisionEnter2D(Collision2D collision)
     {
         collision.gameObject.GetComponent<Damage_hp>().Attack(_enter_damage);
+        
         Destroy_object();
     }
 

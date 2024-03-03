@@ -382,6 +382,7 @@
 "Assets/scripts/Gun/Gun_ice.cs"
 "Assets/scripts/Gun/Gun_lightning.cs"
 "Assets/scripts/player/create_sphere.cs"
+"Assets/scripts/player/hand.cs"
 "Assets/scripts/player/Jump.cs"
 "Assets/scripts/player/Move.cs"
 "Assets/scripts/player/Rotation.cs"
