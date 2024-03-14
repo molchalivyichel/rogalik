@@ -36,7 +36,6 @@ public class hand : MonoBehaviour
         Vector3 diference = Camera.main.ScreenToWorldPoint(Input.mousePosition) - transform.position;
         float rotateZ = Mathf.Atan2(diference.y, diference.x) * Mathf.Rad2Deg;
         transform.rotation = Quaternion.Euler(transform.rotation.x, transform.rotation.x, rotateZ + _offset);
-
         Edit_LocalScale(transform.localScale);
     }
 
